@@ -206,7 +206,7 @@ export default function Agenda() {
                         <p className="text-gray-400 text-sm font-light">Selecciona una fecha para ver los horarios disponibles</p>
                       </div>
                     ) : (
-                      <div className="grid grid-cols-3 gap-2">
+                      <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
                         {HORARIOS.map((hora) => {
                           // Simula algunos horarios ocupados
                           const ocupado = ['09:45', '14:45', '16:15'].includes(hora);
