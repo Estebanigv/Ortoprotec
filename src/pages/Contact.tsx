@@ -91,7 +91,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold text-orto-slate text-sm mb-0.5">Teléfono</h3>
                     <p className="text-gray-600 font-light text-sm leading-snug">
-                      +56 2 2345 6789<br />+56 9 8765 4321 (WhatsApp)
+                      22 235 1313<br />+56 9 7986 2293 (WhatsApp)
                     </p>
                   </div>
                 </div>
@@ -103,7 +103,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold text-orto-slate text-sm mb-0.5">Correo Electrónico</h3>
                     <p className="text-gray-600 font-light text-sm leading-snug">
-                      contacto@ortoprotec.cl<br />agenda@ortoprotec.cl
+                      ortoprotec@gmail.com
                     </p>
                   </div>
                 </div>
@@ -115,7 +115,7 @@ export default function Contact() {
                   <div>
                     <h3 className="font-semibold text-orto-slate text-sm mb-0.5">Horario de Atención</h3>
                     <p className="text-gray-600 font-light text-sm leading-snug">
-                      Lunes a Viernes: 09:00 - 18:30 hrs.<br />Sábados: Previa cita
+                      Lunes a Viernes: 08:30 - 17:30 hrs.
                     </p>
                   </div>
                 </div>

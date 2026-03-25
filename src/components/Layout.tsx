@@ -256,7 +256,7 @@ export default function Layout() {
 
       {/* WhatsApp Floating Button */}
       <a
-        href="https://wa.me/56900000000?text=Hola,%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20Ortoprotec."
+        href="https://wa.me/56979862293?text=Hola,%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20servicios%20de%20Ortoprotec."
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 group flex items-center gap-3"
@@ -299,8 +299,8 @@ export default function Layout() {
               <ul className="space-y-3 mb-8">
                 {[
                   { icon: <MapPin size={14} />, text: 'Eliodoro Yáñez 1075, Depto. 12, Providencia, Santiago' },
-                  { icon: <Phone size={14} />, text: '[Teléfono por confirmar]' },
-                  { icon: <Mail size={14} />, text: '[Email por confirmar]' },
+                  { icon: <Phone size={14} />, text: '22 235 1313 | +56 9 7986 2293' },
+                  { icon: <Mail size={14} />, text: 'ortoprotec@gmail.com' },
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <span className="text-orto-cyan mt-0.5 shrink-0">{item.icon}</span>

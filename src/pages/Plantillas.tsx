@@ -7,27 +7,27 @@ const tipos = [
   {
     title: 'Adulto General',
     img: '/fotos/plantillas/estandar.webp',
-    desc: 'Indicadas para corrección de desalineaciones del pie en adultos. Mejoran el apoyo, distribuyen la carga y alivian dolores de pie, rodilla y cadera.',
+    desc: 'Indicadas cuando se requiere mejorar la alineación del pie, redistribuir cargas y optimizar la función durante la marcha y la bipedestación. Útiles en casos de dolor plantar, fascitis plantar, alteraciones del arco (pie plano, pie cavo), metatarsalgia, desalineaciones del retropié o antepié, y dolor en tobillo, rodilla, cadera o zona lumbar asociado a mala pisada. Ayudan a redistribuir cargas, disminuir dolor, mejorar alineación, optimizar el patrón de marcha, reducir fatiga y prevenir lesiones por sobrecarga.',
   },
   {
     title: 'Con Relleno',
     img: '/fotos/plantillas/con-relleno.webp',
-    desc: 'Plantillas con acolchado adicional para mayor amortiguación. Indicadas en procesos dolorosos, callosidades y protección del pie en uso prolongado.',
+    desc: 'Indicadas para compensar irregularidades, pérdidas de volumen o deformidades del pie. Útiles en deformidades como dedos en garra, hallux valgus, prominencias óseas, pérdida de volumen plantar por cirugías o atrofia, zonas de hiperpresión, metatarsalgia, cicatrices dolorosas, amputaciones parciales del pie y pie diabético. Mejoran la distribución de cargas, disminuyen el dolor, compensan deformidades y reducen puntos de presión y riesgo de lesiones cutáneas.',
   },
   {
     title: 'Diabéticas',
     img: '/fotos/plantillas/diabeticos.webp',
-    desc: 'Diseñadas para proteger el pie diabético de presiones y fricciones. Reducen el riesgo de úlceras y lesiones en pacientes con neuropatía periférica.',
+    desc: 'Parte del manejo preventivo y terapéutico del pie diabético, diseñadas para proteger la piel y reducir el riesgo de lesiones. Indicadas en diabetes con o sin neuropatía periférica, disminución de sensibilidad plantar, zonas de hiperpresión, antecedentes de úlceras plantares, deformidades del pie y post cicatrización de úlceras. Redistribuyen cargas plantares, reducen puntos de presión, disminuyen el riesgo de úlceras y lesiones cutáneas, y contribuyen a la prevención de complicaciones del pie diabético.',
   },
   {
     title: 'Deportivas',
     img: '/fotos/plantillas/deportivas.webp',
-    desc: 'Optimizan el rendimiento atlético y previenen lesiones. Mejoran la absorción de impactos y la alineación biomecánica durante la actividad física.',
+    desc: 'Diseñadas para personas que realizan actividad física o deportiva. Indicadas en dolor plantar asociado al deporte, fascitis plantar, tendinopatías (Aquiles, rotuliana, tibial posterior), metatarsalgia, alteraciones del arco plantar, desalineaciones biomecánicas y sobrecargas musculares. Optimizan la distribución de cargas durante el ejercicio, mejoran la alineación biomecánica, reducen impacto, disminuyen el riesgo de lesiones, favorecen la eficiencia del gesto deportivo y reducen la fatiga muscular.',
   },
   {
     title: 'Infantiles',
     img: '/fotos/plantillas/ninos.webp',
-    desc: 'Específicas para el pie en desarrollo. Corrigen pie plano, metatarso adducto y otras alteraciones tempranas del pie en niños.',
+    desc: 'Diseñadas para guiar el desarrollo del pie, mejorar la alineación y favorecer un patrón de marcha adecuado durante el crecimiento. Indicadas en pie plano infantil (sintomático o persistente fuera de la edad esperada), desalineaciones del retropié (valgo o varo), marcha inestable, dolor en pies, tobillos, rodillas o piernas, fatiga excesiva, diferencias de longitud de extremidades y alteraciones posturales. Ayudan a optimizar el patrón de marcha, disminuir molestias, prevenir alteraciones futuras y favorecer una actividad física segura.',
   },
 ];
 
@@ -45,7 +45,7 @@ export default function Plantillas() {
             Plantillas <span className="text-orto-cyan">Ortopédicas</span>
           </motion.h1>
           <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="text-xl text-gray-300 max-w-3xl font-light leading-relaxed">
-            Indicadas ante desalineación, sobrecarga o desequilibrio en el apoyo del pie. Fabricadas a medida con análisis digital de pisada.
+            Indicadas cuando se requiere mejorar la alineación del pie, redistribuir cargas y optimizar la función durante la marcha y la bipedestación. Fabricadas a medida con análisis digital de pisada.
           </motion.p>
         </div>
       </section>
@@ -75,14 +75,14 @@ export default function Plantillas() {
                 Foot Scan — Análisis digital de la pisada
               </h2>
               <p className="text-gray-600 text-lg font-light leading-relaxed mb-6">
-                Utilizamos tecnología de escaneo podométrico para analizar con precisión la distribución de presiones y la biomecánica del pie durante la marcha.
+                Estudio digital y no invasivo que analiza la pisada, distribución de cargas y patrón de apoyo plantar en estática y dinámica. Herramienta fundamental para evaluaciones precisas y el diseño de soluciones ortopédicas personalizadas.
               </p>
               <ul className="space-y-3 mb-8">
                 {[
-                  'Mapa de presiones plantares en tiempo real',
-                  'Análisis de la marcha y el apoyo',
-                  'Base científica para el diseño de la plantilla',
-                  'Seguimiento objetivo de la evolución del paciente',
+                  'Identifica zonas de sobrecarga y evalúa la alineación del pie',
+                  'Analiza el patrón de marcha y detecta asimetrías o alteraciones biomecánicas',
+                  'Apoya el diseño y ajuste preciso de plantillas personalizadas',
+                  'Seguimiento comparativo y objetivo de la evolución del paciente en el tiempo',
                 ].map((item, idx) => (
                   <li key={idx} className="flex items-center gap-3 text-gray-600 font-light">
                     <div className="w-5 h-5 rounded-full bg-orto-cyan/15 flex items-center justify-center shrink-0">

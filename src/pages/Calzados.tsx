@@ -7,20 +7,20 @@ const tipos = [
   {
     title: 'Caña Alta',
     img: '/fotos/calzado/cana-alta.webp',
-    desc: 'Proporciona soporte adicional en el tobillo y la parte media del pie. Indicado para pacientes con ortesis de tobillo-pie (AFO), inestabilidades articulares o que requieren mayor contención y estabilidad.',
-    beneficios: ['Mayor soporte del tobillo', 'Compatible con AFO', 'Ideal para terrenos irregulares'],
+    desc: 'Indicado cuando se requiere mayor estabilidad, contención y control del tobillo y pie, especialmente en pacientes con riesgo de inestabilidad durante la marcha. Recomendado en casos de inestabilidad del tobillo, debilidad muscular, alteraciones del patrón de marcha, patologías neurológicas (ACV, lesión medular, neuropatías periféricas), uso de órtesis tobillo-pie (AFO), postoperatorios del pie o tobillo, deformidades que requieren contención, y pacientes con equilibrio comprometido.',
+    beneficios: ['Mayor estabilidad y seguridad durante la marcha', 'Mejora la alineación del tobillo y pie', 'Reduce el riesgo de torceduras y caídas', 'Facilita el uso de órtesis (AFO)', 'Favorece la autonomía del paciente', 'Contribuye a una marcha más segura y eficiente'],
   },
   {
     title: 'Caña Baja',
     img: '/fotos/calzado/cana-baja.webp',
-    desc: 'Diseño funcional para uso cotidiano. Adaptado para plantillas personalizadas y necesidades ortopédicas del pie sin requerimiento de soporte de tobillo elevado.',
-    beneficios: ['Uso cotidiano cómodo', 'Compatible con plantillas', 'Amplia horma para mayor volumen'],
+    desc: 'Indicado cuando se requiere soporte y corrección del pie, manteniendo movilidad funcional del tobillo y mayor comodidad en el uso diario. Recomendado en casos de dolor plantar, alteraciones del arco plantar (pie plano, pie cavo), uso de plantillas ortopédicas personalizadas, deformidades leves (hallux valgus, dedos en garra iniciales), metatarsalgia, patologías reumatológicas o degenerativas, diabetes sin inestabilidad marcada, y fatiga al caminar.',
+    beneficios: ['Mejora la alineación del pie', 'Aloja correctamente plantillas ortopédicas', 'Disminuye dolor y fatiga al caminar', 'Permite mayor libertad de movimiento del tobillo', 'Favorece una marcha más natural', 'Contribuye a la autonomía del paciente'],
   },
   {
     title: 'Calzado Diabético',
     img: '/fotos/calzado/diabetico.webp',
-    desc: 'Especialmente diseñado para proteger el pie del paciente diabético. A diferencia del calzado normal, posee materiales que no generan fricciones ni presiones, previniendo úlceras y lesiones.',
-    beneficios: ['Sin costuras internas irritantes', 'Puntera extra profunda', 'Material suave y transpirable', 'Prevención de úlceras'],
+    desc: 'Diseñado para proteger los pies de personas con diabetes, especialmente con complicaciones como neuropatía, mala circulación, pies deformados, riesgo de úlceras o heridas. Su objetivo es prevenir lesiones, disminuir presión y fricción, y proteger la piel del pie. A diferencia del calzado normal, cuenta con interior sin costuras o con costuras mínimas, puntera amplia y zona de dedos espaciosa, espacio extra de profundidad y anchura para pies deformados o hinchados, y materiales suaves y transpirables.',
+    beneficios: ['Interior sin costuras: reduce rozaduras, ampollas y heridas', 'Puntera amplia para deformidades o hinchazón', 'Profundidad extra para acomodar plantillas ortopédicas', 'Acolchado interior y suela con buena amortiguación', 'Materiales transpirables que reducen riesgo de infecciones', 'Suelas antideslizantes para mayor seguridad', 'Plantillas ortopédicas removibles'],
     highlight: true,
   },
 ];
